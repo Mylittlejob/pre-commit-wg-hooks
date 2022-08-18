@@ -1,0 +1,11 @@
+{
+  "name": "pre-commit-wg-hooks",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openapi-typescript-codegen": "^0.23.0"
+  }
+}

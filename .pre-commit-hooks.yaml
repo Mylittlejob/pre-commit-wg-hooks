@@ -1,0 +1,7 @@
+- id: sdk-gen
+  name: make sdk
+  description: Generates SDK from OpenAPI schema.
+  entry: openapi
+  language: node
+  always_run: true
+  additional_dependencies: ['openapi-typescript-codegen']
