@@ -1,7 +1,6 @@
-- id: sdk-gen
-  name: make sdk
-  description: Generates SDK from OpenAPI schema.
-  entry: openapi
+- id: rome
+  name: rome
+  entry: rome
   language: node
-  always_run: true
-  additional_dependencies: ['openapi-typescript-codegen']
+  additional_dependencies: ["rome@10.0.0"]
+  minimum_pre_commit_version: "0"
