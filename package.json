@@ -2,5 +2,5 @@
   "name": "pre-commit-wg-hooks",
   "version": "1.0.0",
   "description": "",
-  "bin": "bin/rome"
+  "bin": "bin/biome"
 }
