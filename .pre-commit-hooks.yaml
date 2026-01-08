@@ -2,4 +2,5 @@
   name: biome
   entry: biome
   language: node
+  additional_dependencies: ["@biomejs/biome@2.3.11"]
   minimum_pre_commit_version: "0"
