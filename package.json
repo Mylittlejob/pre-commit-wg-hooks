@@ -1,6 +1,12 @@
 {
-  "name": "pre-commit-wg-hooks",
-  "version": "1.0.1",
-  "description": "",
-  "bin": "bin/biome"
+  "name": "@wg/linter",
+  "version": "0.0.1",
+  "description": "Pre-commit linter configuration.",
+  "bin": "bin/biome",
+  "exports": {
+    "./biome": "./vendor/biome.json"
+  },
+  "dependencies": {
+    "@biomejs/biome": "2.3.11"
+  }
 }

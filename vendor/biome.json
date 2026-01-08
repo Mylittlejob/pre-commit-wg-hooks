@@ -1,0 +1,88 @@
+{
+    "$schema": "https://biomejs.dev/schemas/2.3.11/schema.json",
+    "formatter": {
+        "enabled": true,
+        "indentStyle": "space"
+    },
+    "javascript": {
+        "formatter": {
+            "quoteStyle": "single",
+            "jsxQuoteStyle": "single",
+            "trailingCommas": "none"
+        }
+    },
+    "linter": {
+        "enabled": true,
+        "rules": {
+            "recommended": true,
+            "a11y": {
+                "useKeyWithClickEvents": "off",
+                "noAutofocus": "off",
+                "noStaticElementInteractions": "off",
+                "noNoninteractiveElementToInteractiveRole": "off",
+                "useSemanticElements": "off"
+            },
+            "correctness": {
+                "noUnusedVariables": "error",
+                "useExhaustiveDependencies": "off",
+                "useHookAtTopLevel": "error",
+                "noUnusedImports": "error"
+            },
+            "complexity": {
+                "noStaticOnlyClass": "off"
+            },
+            "suspicious": {
+                "noExplicitAny": "off",
+                "noConsole": {
+                    "level": "error",
+                    "options": {
+                        "allow": [
+                            "error",
+                            "warn"
+                        ]
+                    }
+                }
+            },
+            "performance": {
+                "noDelete": "off"
+            },
+            "style": {
+                "noParameterAssign": "error",
+                "useAsConstAssertion": "error",
+                "useDefaultParameterLast": "error",
+                "useEnumInitializers": "error",
+                "useSelfClosingElements": "error",
+                "useSingleVarDeclarator": "error",
+                "noUnusedTemplateLiteral": "error",
+                "useNumberNamespace": "error",
+                "noInferrableTypes": "error",
+                "noUselessElse": "error",
+                "noRestrictedImports": {
+                    "level": "error",
+                    "options": {
+                        "paths": {
+                            "react-router": "Please use `src/common/router` instead"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "css": {
+        "parser": {
+            "tailwindDirectives": true
+        }
+    },
+    "json": {
+        "formatter": {
+            "enabled": false
+        }
+    },
+    "assist": {
+        "actions": {
+            "source": {
+                "organizeImports": "on"
+            }
+        }
+    }
+}
