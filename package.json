@@ -1,6 +1,6 @@
 {
   "name": "@wg/linter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Pre-commit linter configuration.",
   "bin": "bin/biome",
   "exports": {
